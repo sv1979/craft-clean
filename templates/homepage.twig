@@ -1,0 +1,8 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <img src="{{entry.mainImage.first.url}}" alt="">
+    <div>
+        {{entry.mainContent}}
+    </div>
+{% endblock %}
